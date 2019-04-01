@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct queue {
+	char sig;
+	int bt;
+	int pri;
+	struct queue *n;
+};
